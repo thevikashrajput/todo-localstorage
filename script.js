@@ -4,7 +4,7 @@ const todoList = document.getElementById('todo-list');
 
 document.addEventListener('DOMContentLoaded', loadTodos);
 
-addBtn.addEventListener('click', addTodo);
+addBtn.addEventListener('click', addTodo)
 
 function loadTodos() {
     const todos = JSON.parse(localStorage.getItem('todos')) || [];
